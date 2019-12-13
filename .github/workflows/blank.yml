@@ -14,6 +14,6 @@ jobs:
     - name: test
       run:  pip show localstack
     - name: test
-      run:  export PATH="$PATH:/usr/bin"
+      run:  export PATH="$PATH:/home/runner/.local/lib/python2.7/site-packages"
     - name: Run a multi-line script
       run: localstack start --host
