@@ -14,6 +14,6 @@ jobs:
     - name: test
       run:  which pip
     - name: test
-      run:  export PATH="$PATH:/usr/bin/python"
+      run:  export PATH="$PATH:/usr/bin/python:/usr/bin/pip"
     - name: Run a multi-line script
       run: localstack start --host
