@@ -12,7 +12,7 @@ jobs:
     - name: Run a one-line script
       run: pip install localstack
     - name: test
-      run:  which python
+      run:  which pip
     - name: test
       run:  export PATH="$PATH:/usr/bin/python"
     - name: Run a multi-line script
