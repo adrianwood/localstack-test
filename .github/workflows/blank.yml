@@ -12,7 +12,7 @@ jobs:
     - name: Run a one-line script
       run: pip install localstack --verbose
     - name: test
-      run:  cd /usr/bin && ls
+      run:  pip show localstack
     - name: test
       run:  export PATH="$PATH:/usr/bin"
     - name: Run a multi-line script
