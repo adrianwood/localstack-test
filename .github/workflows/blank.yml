@@ -12,4 +12,5 @@ jobs:
     - name: Run a one-line script
       run: pip install localstack
     - name: Run a multi-line script
+      run: echo $PATH
       run: localstack start --host
