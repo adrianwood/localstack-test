@@ -25,4 +25,4 @@ jobs:
         pip install localstack
     - name: install localstack
       run: |
-        localstack start --host
+        localstack start
