@@ -11,6 +11,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run a one-line script
       run: pip install localstack
+    - name: test
+      run:  echo $PATH
     - name: Run a multi-line script
-      run: echo $PATH
       run: localstack start --host
