@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-      run: pip install localstack
+      run: pip3 install localstack
     - name: test
       run:  which pip
     - name: test
