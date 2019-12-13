@@ -18,11 +18,8 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
+      run: python -m pip install --upgrade pip
     - name: install localstack
-      run: |
-        pip install localstack
-    - name: install localstack
-      run: |
-        localstack start
+      run: pip install localstack
+    - name: run localstack
+      run: localstack start
