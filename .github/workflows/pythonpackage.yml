@@ -1,4 +1,4 @@
-name: Python package
+name: Local Stack Test
 
 on: [push]
 
