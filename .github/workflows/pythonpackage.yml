@@ -21,7 +21,5 @@ jobs:
       run: python -m pip install --upgrade pip
     - name: install localstack
       run: pip install localstack
-    - name: install docker
-      run: pip install docker
     - name: run localstack
-      run: localstack start
+      run: localstack start --host
